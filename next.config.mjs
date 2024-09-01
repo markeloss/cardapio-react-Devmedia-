@@ -7,5 +7,9 @@ const nextConfig = {
   assetPrefix: '/</barbearia-simples-Devmedia->/',
 };
 
-images.unoptimized = true
+module.exports = {
+  images: {
+    unoptimized: true,
+  },
+};
 export default nextConfig;
